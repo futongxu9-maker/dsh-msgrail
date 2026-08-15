@@ -25,7 +25,7 @@
 ### 方式一：dsh 插件命令（推荐）
 
 ```bash
-dsh plugin --profile web add github:<你的用户名>/dsh-msgrail
+dsh plugin --profile web add github:futongxu9-maker/dsh-msgrail
 ```
 
 ### 方式二：手动
