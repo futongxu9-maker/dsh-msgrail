@@ -30,13 +30,13 @@ dsh plugin --profile web add github:futongxu9-maker/dsh-msgrail
 
 ### 方式二：手动
 
-1. 把 `dsh-msgrail` 目录复制到 `~/.dsh/profiles/web/node_modules/@local/dsh-msgrail/`
+1. 把 `dsh-msgrail` 目录复制到 `~/.dsh/profiles/web/node_modules/dsh-msgrail/`
 2. 在 `~/.dsh/profiles/web/cordis.patch.yml` 末尾追加：
 
 ```yaml
 - insert:
     - id: msgrail
-      name: '@local/dsh-msgrail'
+      name: 'dsh-msgrail'
 ```
 
 3. 刷新页面（或重启 `dsh` 服务）

@@ -1,8 +1,7 @@
 {
-  "name": "@local/dsh-msgrail",
+  "name": "dsh-msgrail",
   "version": "1.0.0",
-  "private": true,
-  "description": "消息轨道：对话右缘的消息索引（悬停预览、点击跳转），皮肤化配色，随包分发。",
+  "description": "消息轨道：对话右缘的消息索引（悬停预览、点击跳转、自动加载历史），纯插件零宿主侵入，皮肤全适配",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -11,8 +10,7 @@
     "./package.json": "./package.json"
   },
   "dsh": {
-    "client": {
-      "platform": "web"
-    }
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web" }
   }
 }

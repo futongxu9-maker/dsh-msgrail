@@ -1,0 +1,4 @@
+# dsh-msgrail bundle patch — 一个条目同时挂载 host（lib/index.js）与 client（lib/client.js）
+- insert:
+    - id: msgrail
+      name: 'dsh-msgrail'
